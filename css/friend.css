@@ -50,3 +50,20 @@
 .friend .chat__timestamp {
   font-size: 12px;
 }
+
+.friend .fa-birthday-cake {
+  background-color: #e580a0;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.friend .fa-grin-beam {
+  background-color: #9b87dd;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+
+}

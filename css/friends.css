@@ -5,8 +5,16 @@
   border-bottom: 1px solid #f7f7f7;
 }
 
+.friends .friends__maintitle {
+  margin: 20px 0px 20px 0px;
+  padding-top: 20px;
+  border-top: 1px solid #f7f7f7;
+}
+
 .friends__plus .friends__title,
-.friends__list .friends__title {
+.friends__list .friends__title,
+.friends__maintitle .friends__title,
+.friends__maintitle .friends__number {
   font-size: 14px;
   opacity: 0.6;
   margin-bottom: 12px;
@@ -26,4 +34,14 @@
 
 .friend__now-listening span {
   opacity: 0.5;
+}
+
+.birthday__content {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.friends__friend {
+  margin-bottom: 20px;
 }
