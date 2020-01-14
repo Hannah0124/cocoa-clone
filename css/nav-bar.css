@@ -17,3 +17,26 @@
 .nav i {
   font-size: 20px;
 }
+
+/* Relative and absolute is a set */
+/* If I didn't use relative for the parent, absolute will be appied based on body */
+.nav .nav__list-link {
+  position: relative;
+  /* relative is an anchor */
+}
+
+.nav .nav__badge {
+  position: absolute;
+  color: white;
+  background-color: #dc5d46;
+  font-size: 10px;
+  top: -7px;
+  right: -7px;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* To make a round, update the half of the width for border-radius */
+  border-radius: 10px;
+}
