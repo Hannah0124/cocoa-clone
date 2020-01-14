@@ -3,6 +3,14 @@
   justify-content: space-between;
   margin-bottom: 30px;
   align-items: center;
+
+  background-color: #fcfcfc;
+  position: fixed;
+  width: 100%;
+  padding: 0px 40px 20px 40px;
+  left: 0px;
+  top: 56px;
+  border-bottom: 1px solid #f7f7f7; 
 }
 
 .header .header__title {

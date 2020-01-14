@@ -22,3 +22,10 @@ a {
 	/* inherit: means "get the color from a father" */
 	color: inheirt;
 }
+
+main {
+	top: 118px;
+	position: relative;
+	z-index: -1;
+	padding: 0px 20px 20px 20px;
+}
