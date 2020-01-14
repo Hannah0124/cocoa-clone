@@ -21,7 +21,8 @@ body {
 
 a {
 	/* inherit: means "get the color from a father" */
-	color: inheirt;
+	color: inherit;
+	text-decoration: none;
 }
 
 main {
