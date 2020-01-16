@@ -13,7 +13,7 @@
   <title>Chat | Kakao Clone</title>
 </head>
 
-<body>
+<body class="chats-body">
   <div class="status-bar">
     <div class="status-bar__column">
       <span class="status-bar__clock">13:54 </span>
@@ -34,11 +34,11 @@
       </a>
       <h1 class="header__title">Best Friend</h1>
     </div>
+
     <div class="header__header-column">
       <span class="header__icon">
         <i class="fas fa-search"></i>
       </span>
-
       <span class="header__icon">
         <i class="fas fa-bars"></i>
       </span>
@@ -51,7 +51,7 @@
       <!-- Incoming message -->
       <li class="incoming-message message">
         <!-- 1st column -->
-        <img src="images/shiba.jpg" class="g-avatar message__avatar" alt="avatar"/>
+        <img src="images/shiba.jpg" class="m-avatar message__avatar" alt="avatar"/>
         <!-- 2nd column -->
         <div class="message__content">
           <span class="message__author">Best Friend</span>
@@ -63,7 +63,8 @@
         <span class="message__timestamp">11:11</span>
       </li>
 
-      <li class="outgoing-message message">
+      <!-- Outgoing message -->
+      <li class="incoming-message message">
         <!-- 1st column -->
         <span class="message__timestamp">11:12</span>
         <!-- 2nd column -->

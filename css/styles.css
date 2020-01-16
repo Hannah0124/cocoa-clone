@@ -9,6 +9,7 @@
 @import "find.css";
 @import "more.css";
 @import "settings.css";
+@import "chat.css";
 
 * {
 	box-sizing: border-box;
@@ -46,4 +47,9 @@ main {
 
 .pointer {
 	cursor: pointer;
+}
+
+.m-avatar {
+	width: 60px;
+	height: 60px;
 }
